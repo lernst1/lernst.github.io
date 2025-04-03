@@ -11,8 +11,8 @@ navbar:
       href: research.html
     - text: "Final Project"
       href: final_project.html
-    - text: "Blog"
-      href: blog.html
+    - text: "About"
+      href: about.html
     - text: "Contact"
       href: contact.html
 output:

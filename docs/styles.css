@@ -1,0 +1,42 @@
+/* Custom background color for the page */
+body {
+  background-color: #f4f4f4; /* Light blue background */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header color */
+h1 {
+  color: #2e8b57;  /* Sea Green */
+}
+
+h2 {
+  color: #ff6347;  /* Tomato */
+}
+
+/* Link color */
+a {
+  color: #007bff;  /* Bootstrap blue */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;  /* Darker blue on hover */
+}
+
+/* Image styling */
+img {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  max-width: 100%;  /* Makes sure images are responsive */
+  height: auto;
+}
+
+/* change navbar background color */
+.navbar {
+  background-color: #009c4a;
+}
+
+/* change link color */
+a {
+  color: #ffffff;
+}

@@ -1,0 +1,22 @@
+name: "my-website"
+output_dir: "docs"
+navbar:
+  title: "Lonnie Ernst"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "CV"
+      href: cv.html
+    - text: "Research"
+      href: research.html
+    - text: "Final Project"
+      href: final_project.html
+    - text: "Blog"
+      href: blog.html
+    - text: "Contact"
+      href: contact.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    css: styles.css

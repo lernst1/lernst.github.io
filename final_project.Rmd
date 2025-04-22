@@ -1,0 +1,46 @@
+---
+title: "Final Project"
+output: html_document
+date: "2025-04-22"
+---
+
+``` {r}
+library(tidyverse)
+library(janitor)
+library(ggplot2)
+
+# Load Sonic games dataset
+sonic_games_df <- read.csv("sonic_games.csv") |> clean_names()
+
+# Convert sales, revenue, and streams to millions
+sonic_games_df <- sonic_games_df |>
+  mutate(
+    units_sold = units_sold / 1e6,
+    gross_revenue = gross_revenue / 1e6,
+    soundtrack_streams = soundtrack_streams / 1e6
+    )
+
+# Group comparisons
+sonic_games_df |>
+  group_by(crush_40_involved) |>
+  summarise(
+    avg_critic = mean(metacritic),
+    avg_user = mean(user_score),
+    avg_sales = mean(units_sold, na.rm = TRUE)
+  )
+```
+
+```{r}
+library(ggplot2)
+# Scatter plot of fan reception vs critic score
+sonic_games_df |>
+  ggplot(aes(x = metacritic, y = user_score)) +
+  geom_point(aes(color = crush_40_involved), size = 3) +
+  geom_smooth(method = "lm", se = FALSE, color = "gray40") +
+  labs(title = "Fan Ratings vs Critic Scores",
+       x = "Critic Score (Metacritic)",
+       y = "Fan Score (Metacritic)",
+       color = "Is Crush 40 Involved") +
+  facet_wrap(~ is_3d) +
+  theme_bw()
+```

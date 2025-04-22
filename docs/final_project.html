@@ -280,48 +280,8 @@ $(document).ready(function () {
 </div>
 
 
-<pre class="r"><code>library(tidyverse)
-library(janitor)
-library(ggplot2)
-
-# Load Sonic games dataset
-sonic_games_df &lt;- read.csv(&quot;sonic_games.csv&quot;) |&gt; clean_names()
-
-# Convert sales, revenue, and streams to millions
-sonic_games_df &lt;- sonic_games_df |&gt;
-  mutate(
-    units_sold = units_sold / 1e6,
-    gross_revenue = gross_revenue / 1e6,
-    soundtrack_streams = soundtrack_streams / 1e6
-    )
-
-# Group comparisons
-sonic_games_df |&gt;
-  group_by(crush_40_involved) |&gt;
-  summarise(
-    avg_critic = mean(metacritic),
-    avg_user = mean(user_score),
-    avg_sales = mean(units_sold, na.rm = TRUE)
-  )</code></pre>
-<pre><code>## # A tibble: 2 × 4
-##   crush_40_involved avg_critic avg_user avg_sales
-##   &lt;chr&gt;                  &lt;dbl&gt;    &lt;dbl&gt;     &lt;dbl&gt;
-## 1 No                      72.6     7.81      7.89
-## 2 Yes                     65.3     7.09      3.84</code></pre>
-<pre class="r"><code>library(ggplot2)
-# Scatter plot of fan reception vs critic score
-sonic_games_df |&gt;
-  ggplot(aes(x = metacritic, y = user_score)) +
-  geom_point(aes(color = crush_40_involved), size = 3) +
-  geom_smooth(method = &quot;lm&quot;, se = FALSE, color = &quot;gray40&quot;) +
-  labs(title = &quot;Fan Ratings vs Critic Scores&quot;,
-       x = &quot;Critic Score (Metacritic)&quot;,
-       y = &quot;Fan Score (Metacritic)&quot;,
-       color = &quot;Is Crush 40 Involved&quot;) +
-  facet_wrap(~ is_3d) +
-  theme_bw()</code></pre>
-<pre><code>## `geom_smooth()` using formula = &#39;y ~ x&#39;</code></pre>
-<p><img src="final_project_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p><img src="final_project_files/figure-html/unnamed-chunk-2-1.png" width="672" /><img src="final_project_files/figure-html/unnamed-chunk-2-2.png" width="672" /></p>
+<p><img src="final_project_files/figure-html/page1-1.png" width="960" /><img src="final_project_files/figure-html/page1-2.png" width="960" /></p>
 
 
 

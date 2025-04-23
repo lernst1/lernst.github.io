@@ -1,29 +1,40 @@
 ---
 title: "Home"
-output: html_document
-date: "`r Sys.Date()`"
+output: 
+  html_document:
+    theme: flatly
+    toc: false
+    df_print: paged
+    css: styles.css
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# 👋 Hi, I'm Lonnie.
 
-## R Markdown
+Welcome to my personal website!
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+I'm a data analyst and researcher with interests in data visualization, statistical modeling, and digital storytelling. This site hosts my academic CV, research projects, and my final course project.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+---
 
-```{r cars}
-summary(cars)
-```
+## 🔗 Quick Links
 
-## Including Plots
+- 📄 [My CV](cv.html)  
+- 📊 [Research Projects](projects.html)  
+- 🎮 [Final Project – Sonic Game Analysis](final-project.html)  
+- 📫 [Contact Me](contact.html)
 
-You can also embed plots, for example:
+---
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+## 🧠 About Me
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+I'm currently studying Biotechnology at Utah Valley University. I love working with data to uncover trends, communicate insights, and explore creative questions — from genomics to video games.
+
+Outside of school, you’ll probably find me playing board games, tending my garden, or snowboarding come winter!
+
+---
+
+## 🚀 Featured Project
+
+Take a look at my final course project exploring the relationship between critic/fan scores, sales, and music in *Sonic the Hedgehog* games:
+
+👉 [See Final Project](final_project.html)

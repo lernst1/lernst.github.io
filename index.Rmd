@@ -20,7 +20,7 @@ I'm a data analyst and researcher with interests in data visualization, statisti
 
 - 📄 [My CV](cv.html)  
 - 📊 [Research Projects](projects.html)  
-- 🎮 [Final Project – Sonic Game Analysis](final-project.html)  
+- 🎮 [Final Project – Sonic Game Analysis](final_project.html)  
 - 📫 [Contact Me](contact.html)
 
 ---

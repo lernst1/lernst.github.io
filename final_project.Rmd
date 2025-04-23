@@ -24,6 +24,7 @@ sonic_games_df <- sonic_games_df |>
     )
 ```
 
+## Fan Reception vs Critic Ratings Comparison and If Crush 40 Involvement Played a Role
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 # Scatter plot of fan reception vs critic score
 sonic_games_df |>
@@ -35,7 +36,10 @@ sonic_games_df |>
        color = "Is Crush 40 Involved") +
   facet_wrap(~ is_3d) +
   theme_bw()
+```
 
+## Relationship Between Fan Rating, Units Sold, and How Popular the Music for the Game Was
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
 # Relationship between fan rating, units sold, and number of streams of music
 sonic_games_df |>
   ggplot(aes(x = soundtrack_streams, y = user_score, size = units_sold)) + 
@@ -50,6 +54,7 @@ sonic_games_df |>
   facet_wrap(~ crush_40_involved)
 ```
 
+## 
 ```{r page1, fig.width = 10, fig.height = 6, echo = FALSE, warning = FALSE, message = FALSE}
 # Success of each game
 # Normalize metrics

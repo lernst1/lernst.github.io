@@ -2,6 +2,7 @@
 title: "Final Project"
 output: 
   html_document:
+    css: styles.css
     code_folding:
 date: "2025-04-22"
 ---
@@ -54,7 +55,7 @@ sonic_games_df |>
   facet_wrap(~ crush_40_involved)
 ```
 
-## 
+## Overall Metrics for Each Individual Game
 ```{r page1, fig.width = 10, fig.height = 6, echo = FALSE, warning = FALSE, message = FALSE}
 # Success of each game
 # Normalize metrics

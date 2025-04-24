@@ -1,42 +1,25 @@
-/* Custom background color for the page */
 body {
-  background-color: #f4f4f4; /* Light blue background */
-  font-family: 'Arial', sans-serif;
+  background-color: #F5F5F5;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #001F3F;
+  line-height: 1.6;
 }
 
-/* Header color */
-h1 {
-  color: #2e8b57;  /* Sea Green */
+h1, h2, h3 {
+  color: #005AC1;
 }
 
-h2 {
-  color: #ff6347;  /* Tomato */
-}
-
-/* Link color */
 a {
-  color: #007bff;  /* Bootstrap blue */
+  color: #005AC1;         /* Sonic Blue */
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
-  color: #0056b3;  /* Darker blue on hover */
+  color: #1CA9F4;         /* Lighter hover blue */
+  text-decoration: underline;
 }
 
-/* Image styling */
-img {
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  max-width: 100%;  /* Makes sure images are responsive */
-  height: auto;
-}
-
-/* change navbar background color */
-.navbar {
-  background-color: #009c4a;
-}
-
-/* change link color */
-a {
-  color: #ffffff;
+nav a {
+  color: #FFD700;         /* Optional: gold nav links */
 }

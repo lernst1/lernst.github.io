@@ -1,0 +1,16 @@
+---
+title: " "
+output: 
+  html_document:
+    css: styles.css
+date:
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<div class="page-title">Research Projects</div>
+
+### Genetic Modification of Cyanobacteria to Break Down Polychlorinated Biphenyls in Lake Water
+#### Using the BPH gene found in isolated soil bacteria, this project aims to genetically modify Microcystis aeruginosa to knockout the microcystin toxin producing gene and knockin the BPH gene thereby inhibiting toxin production from M. aeurginosa blooms and remove the organic contaminant Polychlroinated Biphenyls (PCBs).

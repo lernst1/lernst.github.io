@@ -8,7 +8,7 @@ output:
     css: styles.css
 ---
 
-# 👋 Hi, I'm Lonnie.
+# Hi, I'm Lonnie.
 
 Welcome to my personal website!
 
@@ -16,16 +16,16 @@ I'm a data analyst and researcher with interests in data visualization, statisti
 
 ---
 
-## 🔗 Quick Links
+## Quick Links
 
 - 📄 [My CV](cv.html)  
-- 📊 [Research Projects](projects.html)  
+- 📊 [Research Projects](research.html)  
 - 🎮 [Final Project – Sonic Game Analysis](final_project.html)  
 - 📫 [Contact Me](contact.html)
 
 ---
 
-## 🧠 About Me
+## About Me
 
 I'm currently studying Biotechnology at Utah Valley University. I love working with data to uncover trends, communicate insights, and explore creative questions — from genomics to video games.
 
@@ -33,8 +33,8 @@ Outside of school, you’ll probably find me playing board games, tending my gar
 
 ---
 
-## 🚀 Featured Project
+## Featured Project
 
 Take a look at my final course project exploring the relationship between critic/fan scores, sales, and music in *Sonic the Hedgehog* games:
 
-👉 [See Final Project](final_project.html)
+[See Final Project](final_project.html)

@@ -1,6 +1,7 @@
 library(tidyverse)
 library(janitor)
 library(ggplot2)
+library(ggforce)
 
 # Load Sonic games dataset
 sonic_games_df <- read.csv("sonic_games.csv") |> clean_names()
@@ -21,7 +22,7 @@ sonic_games_df |>
     avg_user = mean(user_score),
     avg_sales = mean(units_sold, na.rm = TRUE)
   )
-
+view(sonic_games_df)
 # Plots
 # Violin plot of game success compared to Crush 40 involvement
 sonic_games_df |>
@@ -56,24 +57,36 @@ sonic_games_df |>
   facet_wrap(~ crush_40_involved)
 
 # Success of each game
+# Normalize the metrics
 sonic_games_success <- sonic_games_df |>
-  pivot_longer(cols = c(units_sold, metacritic, user_score, gross_revenue),
+  mutate(across(c(
+    units_sold, metacritic, user_score, soundtrack_streams),
+    ~ (. - min(.)) / (max(.) - min(.)),
+    .names = "norm_{col}"))
+
+# Make a metric column
+sonic_games_success <- sonic_games_df |>
+  pivot_longer(cols = c(units_sold, metacritic, user_score, soundtrack_streams),
                names_to = "metric", values_to = "value")
+
+colnames(sonic_games_success)
 
 sonic_games_success |>
   ggplot(aes(x = metric, y = value, fill = metric)) +
   geom_col(position = "dodge") +
-  facet_wrap(~ title, scales = "free_y", nrow()) +
+  facet_wrap_paginate(~ title, scales = "free_y", ncol = 3, nrow = 3, page = 1) +
   labs(
     title = "Comparison of Metrics by Game",
     x = "Metric",
     y = "Value"
   ) +
-  theme_bw()
-
-sonic_games_df <- sonic_games_df |>
-  mutate(score_diff = user_score - metacritic)
-
-sonic_games_df |>
-  group_by(crush_40_involved) |>
-  summarise(avg_score_diff = mean(score_diff, na.rm = TRUE))
+  theme_bw() + 
+  scale_fill_discrete(labels = c("units_sold" = "Units Sold",
+                                 "soundtrack_streams" = "Soundtrack Streams",
+                                 "metacritic" = "Metacritic",
+                                 "user_score" = "User Score")) +
+  scale_x_discrete(labels = c("units_sold" = "Units Sold",
+                              "soundtrack_streams" = "Soundtrack Streams",
+                              "metacritic" = "Metacritic",
+                              "user_score" = "User Score")) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))

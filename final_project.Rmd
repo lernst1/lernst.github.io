@@ -1,5 +1,5 @@
 ---
-title: "Final Project"
+title: "The Effect of Crush 40 Involvement on Sonic Games"
 output: 
   html_document:
     css: styles.css

@@ -8,33 +8,45 @@ output:
     css: styles.css
 ---
 
-# Hi, I'm Lonnie.
-
-Welcome to my personal website!
+<div class="hero">
+<h1>Hi, I'm Lonnie.</h1>
+<p>Biotechnology professional &bull; Molecular biology &amp; biomanufacturing &bull; Data-curious</p>
+</div>
 
 I'm a biotechnology professional with hands-on experience in molecular biology, biomanufacturing, and lab quality systems, alongside a growing interest in using data and code as research tools. This site hosts my CV, research projects, and a data analysis project from my coursework.
 
----
+<div class="badge-row">
+<span class="badge">Molecular Cloning</span>
+<span class="badge">Cell Culture</span>
+<span class="badge gold">Biomanufacturing</span>
+<span class="badge">Lab Quality Systems</span>
+<span class="badge gold">R</span>
+<span class="badge">Data Analysis</span>
+</div>
+
+<div class="chevron-divider"><span></span><span></span><span></span></div>
 
 ## Quick Links
 
-- 📄 [My CV](cv.html)  
-- 📊 [Research Projects](research.html)  
-- 🎮 [Final Project – Sonic Game Analysis](final_project.html)  
-- 📫 [Contact Me](contact.html)
+<div class="card-links">
+<a class="card-link" href="cv.html"><span class="card-icon">📄</span><span class="card-label">My CV</span></a>
+<a class="card-link" href="research.html"><span class="card-icon">🧬</span><span class="card-label">Research Projects</span></a>
+<a class="card-link" href="final_project.html"><span class="card-icon">📊</span><span class="card-label">Final Project</span></a>
+<a class="card-link" href="contact.html"><span class="card-icon">📫</span><span class="card-label">Contact Me</span></a>
+</div>
 
----
+<div class="chevron-divider"><span></span><span></span><span></span></div>
 
 ## About Me
 
-I hold a bachelor's degree in Biotechnology and work at the intersection of the bench and the process: from molecular cloning and cell culture to media production and lab documentation. I'm drawn to problems that combine careful experimental work with the kind of pattern-finding that data analysis makes possible.
+I hold a bachelor's degree in Biotechnology and work at the intersection of the bench and the process — from molecular cloning and cell culture to media production and lab documentation. I'm drawn to problems that combine careful experimental work with the kind of pattern-finding that data analysis makes possible.
 
 Outside of work, you'll probably find me tending my garden, exploring new PC hardware, or watching anime.
 
----
+<div class="chevron-divider"><span></span><span></span><span></span></div>
 
 ## Featured Project
 
-Take a look at my final course project exploring the relationship between critic/fan scores, sales, and music in *Sonic the Hedgehog* games:
+Take a look at a data analysis project exploring the relationship between critic/fan scores, sales, and music in *Sonic the Hedgehog* games:
 
 [See Final Project](final_project.html)

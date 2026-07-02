@@ -12,7 +12,7 @@ output:
 
 Welcome to my personal website!
 
-I'm a data analyst and researcher with interests in data visualization, statistical modeling, and digital storytelling. This site hosts my academic CV, research projects, and my final course project.
+I'm a biotechnology professional with hands-on experience in molecular biology, biomanufacturing, and lab quality systems, alongside a growing interest in using data and code as research tools. This site hosts my CV, research projects, and a data analysis project from my coursework.
 
 ---
 
@@ -27,9 +27,9 @@ I'm a data analyst and researcher with interests in data visualization, statisti
 
 ## About Me
 
-I'm currently studying Biotechnology at Utah Valley University. I love working with data to uncover trends, communicate insights, and explore creative questions — from genomics to video games.
+I hold a bachelor's degree in Biotechnology and work at the intersection of the bench and the process: from molecular cloning and cell culture to media production and lab documentation. I'm drawn to problems that combine careful experimental work with the kind of pattern-finding that data analysis makes possible.
 
-Outside of school, you’ll probably find me playing board games, tending my garden, or snowboarding come winter!
+Outside of work, you'll probably find me tending my garden, exploring new PC hardware, or watching anime.
 
 ---
 

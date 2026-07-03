@@ -1,0 +1,44 @@
+---
+title: " "
+output:
+  html_document:
+    theme: flatly
+    toc: false
+    df_print: paged
+    css: styles.css
+---
+
+<div class="page-title">Contact</div>
+
+<p style="text-align:center; max-width:560px; margin:20px auto 0;">Feel free to reach out — I'm always open to connecting about biotech, research, or new opportunities.</p>
+
+<div class="contact-cards">
+<a class="contact-card" id="email-card" href="#">
+<span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg></span>
+<span class="contact-label">Email</span>
+<span class="contact-detail" id="email-detail">Click to reveal</span>
+</a>
+<a class="contact-card" href="https://www.linkedin.com/in/lonnie-ernst-9a9a9b39" target="_blank" rel="noopener">
+<span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></span>
+<span class="contact-label">LinkedIn</span>
+<span class="contact-detail">lonnie-ernst</span>
+</a>
+</div>
+
+<script>
+(function(){
+  var user = "lonnie.ernst", domain = "proton.me";
+  var card = document.getElementById("email-card");
+  var detail = document.getElementById("email-detail");
+  var revealed = false;
+  card.addEventListener("click", function(e){
+    if(!revealed){
+      e.preventDefault();
+      var addr = user + "@" + domain;
+      detail.textContent = addr;
+      card.href = "mailto:" + addr;
+      revealed = true;
+    }
+  });
+})();
+</script>

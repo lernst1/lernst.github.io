@@ -1,17 +1,27 @@
 body {
-  background-color: #EDEDE6;
+  background-color: #E2E2DA;
+  background-image: radial-gradient(circle, rgba(0,90,193,0.25) 1px, transparent 1px);
+  background-size: 22px 22px;
   font-family: "Inter", "Helvetica Neue", sans-serif;
   color: #001F3F;
   line-height: 1.6;
 }
 
 .container-fluid.main-container {
-  background-color: #EDEDE6;
+  background-color: #E2E2DA;
+  max-width: 1300px !important;
 }
 
 h1, h2, h3 {
   font-family: "Poppins", "Helvetica Neue", sans-serif;
-  color: #005AC1;
+  color: #003D82;
+}
+
+/* Section header accent - gold underline bar */
+.main-container h2 {
+  padding-bottom: 8px;
+  border-bottom: 3px solid #FFD700;
+  display: inline-block;
 }
 
 a {
@@ -25,8 +35,57 @@ a:hover {
   text-decoration: underline;
 }
 
-nav a {
-  color: #FFD700;         /* Optional: gold nav links */
+/* Minimalist navbar */
+.navbar-default, .navbar-inverse {
+  background-color: #FFFFFF !important;
+  border-bottom: 1px solid #e2e2e2 !important;
+  border-top: none !important;
+  min-height: 52px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.navbar-default .navbar-brand,
+.navbar-inverse .navbar-brand {
+  color: #001F3F !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.05em;
+  padding-top: 16px;
+}
+
+.navbar-nav {
+  float: right !important;
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a {
+  color: #4a4a4a !important;
+  font-weight: 500;
+  font-size: 0.85em;
+  letter-spacing: 0.02em;
+  padding-top: 18px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #005AC1 !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid #FFD700;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #005AC1 !important;
+  background-color: transparent !important;
+  border-bottom: 2px solid #FFD700;
+  font-weight: 700;
 }
 
 .page-title {
@@ -76,28 +135,36 @@ nav a {
 
 /* Card-style quick links */
 .card-links {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
   margin: 24px 0;
 }
 
-@media (max-width: 600px) {
-  .card-links {
-    grid-template-columns: repeat(2, 1fr);
+.card-links p {
+  display: grid;
+  grid-template-columns: repeat(4, 160px);
+  gap: 14px;
+  margin: 0;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .card-links p {
+    grid-template-columns: repeat(2, 160px);
   }
 }
 
 .card-link {
   background-color: white;
-  border: 1px solid #ddd;
+  border: 1px solid #d0d8e0;
   border-left: 5px solid #005AC1;
   border-radius: 8px;
-  padding: 14px 10px;
+  padding: 22px 14px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.08);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
   text-decoration: none !important;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -105,12 +172,20 @@ nav a {
   transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
   text-decoration: none !important;
+  border-left-color: #FFD700;
 }
 
 .card-link .card-icon {
-  font-size: 1.6em;
-  margin-bottom: 6px;
-  display: block;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-link .card-icon svg {
+  width: 28px;
+  height: 28px;
+  color: #005AC1;
+  flex-shrink: 0;
 }
 
 .card-link .card-label {
@@ -118,32 +193,33 @@ nav a {
   font-weight: 700;
   font-family: "Poppins", sans-serif;
   font-size: 0.85em;
-}
-
-.card-link:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  text-decoration: none !important;
-}
-
-.card-link .card-icon {
-  font-size: 1.6em;
-  margin-bottom: 6px;
-  display: block;
-}
-
-.card-link .card-label {
-  color: #001F3F;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
 }
 
 /* Chevron section divider - speed-line motif */
 .chevron-divider {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 6px;
   margin: 30px 0;
+}
+
+.chevron-divider::before,
+.chevron-divider::after {
+  content: "";
+  height: 1px;
+  background-color: #cfd6dd;
+  flex: 1;
+  max-width: 575px;
+}
+
+.chevron-divider::before {
+  margin-right: 14px;
+}
+
+.chevron-divider::after {
+  margin-left: 14px;
 }
 
 .chevron-divider span {
@@ -166,9 +242,22 @@ nav a {
   margin: 16px 0;
 }
 
+/* Lead paragraph - the intro line under the hero */
+.lead-intro {
+  font-size: 1.15em;
+  color: #4a5568;
+  line-height: 1.5;
+}
+
+/* Muted secondary text */
+.muted {
+  color: #6b7280;
+}
+
+/* Tinted skill badges - lighter, more modern */
 .badge {
-  background-color: #005AC1;
-  color: white;
+  background-color: #e6f0fb;
+  color: #005AC1;
   font-size: 0.85em;
   font-weight: 600;
   padding: 5px 12px;
@@ -176,24 +265,6 @@ nav a {
 }
 
 .badge.gold {
-  background-color: #FFD700;
-  color: #001F3F;
-}
-
-/* Lock in navbar contrast */
-.navbar-default, .navbar-inverse {
-  background-color: #005AC1 !important;
-  border-color: #005AC1 !important;
-}
-
-.navbar-default .navbar-nav > li > a,
-.navbar-inverse .navbar-nav > li > a,
-.navbar-default .navbar-brand,
-.navbar-inverse .navbar-brand {
-  color: #FFD700 !important;
-}
-
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:hover {
-  color: white !important;
+  background-color: #fdf3cf;
+  color: #8a6d00;
 }

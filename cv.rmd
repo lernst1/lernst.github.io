@@ -1,0 +1,71 @@
+---
+title: " "
+output:
+  html_document:
+    theme: flatly
+    toc: false
+    df_print: paged
+    css: styles.css
+---
+
+<div class="page-title">Curriculum Vitae</div>
+
+<div class="cv-actions">
+<a class="cv-download" href="Lonnie_Ernst_Resume.pdf" download>Download one-page resume (PDF)</a>
+</div>
+
+## Professional Summary
+
+Biotechnology professional with a B.S. in Biotechnology and four-plus years of combined industry and academic laboratory experience across molecular biology, nucleic acid extraction and quantification, PCR, and microbiology. Experienced in executing high-complexity procedures under SOPs, maintaining rigorous quality-control documentation, troubleshooting assays, and training laboratory personnel. Comfortable working both independently and collaboratively in fast-paced, quality-controlled environments, with a growing focus on applying data analysis and computational tools to laboratory work.
+
+<div class="chevron-divider"><span></span><span></span><span></span></div>
+
+## Professional Experience
+
+### Specialist III, Media Production Coordinator
+<div class="cv-meta">Salt Lake Community College — InnovaBio · Sep 2021 – Present</div>
+
+- Perform high-complexity molecular biology procedures including PCR and nucleic acid extraction and quantification.
+- Participate in the development, optimization, and validation of new assays and protocols; write and maintain SOPs and troubleshoot assays.
+- Train laboratory personnel in molecular techniques, contamination control, equipment operation, and data recording.
+- Lead media production for biology departments and manage inventory, supplies, and equipment.
+
+### Formulator II
+<div class="cv-meta">bioMérieux · May 2023 – Present</div>
+
+- Perform aseptic formulation of buffers and reagents for molecular diagnostic platforms in a fast-paced, quality-controlled GMP manufacturing environment.
+- Train laboratory personnel in GMP documentation, reagent preparation, and contamination-control standards in compliance with company SOPs.
+- Apply a continuous-improvement mindset to workflow optimization.
+
+### Microbiologist
+<div class="cv-meta">Analytical Research Labs · May 2022 – May 2023</div>
+
+- Performed aseptic sample preparation, microbial culture and enumeration, and quality-control testing for nutraceutical and dietary supplement manufacturers in a high-throughput environment.
+- Tracked and documented samples using LIMS software; led team in meeting testing deadlines under time pressure.
+
+<div class="chevron-divider"><span></span><span></span><span></span></div>
+
+## Education
+
+### Bachelor of Science, Biotechnology
+<div class="cv-meta">Utah Valley University · 2026</div>
+
+Relevant coursework: Molecular Biology, Genetics, Genomics, Cell Biology, Microbiology, Organic Chemistry, Biochemistry I.
+
+<div class="chevron-divider"><span></span><span></span><span></span></div>
+
+## Technical Skills
+
+**Molecular Biology & Microbiology:** PCR, Nucleic Acid Extraction & Quantification, Gel Electrophoresis, Plasmid Design, Serial Dilution, Aseptic & Sterile Technique, Microbial Culture & Enumeration, BSL-2 Operations, Contamination Control
+
+**Genomics & Diagnostics:** NGS Principles, DNA Extraction from Biological Samples, Genotyping Concepts, Sequence Analysis
+
+**Data & Quality:** SOP Writing & Execution, Assay Development, Quality Control, LIMS, Data Review, GMP Compliance
+
+**Computing:** Data Analysis & Visualization (R), Command Line / Bash, Electronic Lab Notebook, MS Word, MS Excel, MS PowerPoint, Google Workspace
+
+<div class="chevron-divider"><span></span><span></span><span></span></div>
+
+## Research
+
+For a detailed overview of current and past research projects, see the [Research page](research.html).

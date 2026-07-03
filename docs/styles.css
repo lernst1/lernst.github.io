@@ -268,3 +268,111 @@ a:hover {
   background-color: #fdf3cf;
   color: #8a6d00;
 }
+
+
+
+/* ===== CV page ===== */
+.cv-actions {
+  text-align: center;
+  margin: 24px 0 10px;
+}
+
+.cv-download {
+  display: inline-block;
+  background-color: #005AC1;
+  color: white !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 0.9em;
+  padding: 12px 24px;
+  border-radius: 999px;
+  text-decoration: none !important;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+
+.cv-download:hover {
+  background-color: #003D82;
+  transform: translateY(-2px);
+  color: white !important;
+}
+
+.cv-meta {
+  color: #6b7280;
+  font-size: 0.9em;
+  font-style: italic;
+  margin: -6px 0 10px;
+}
+
+/* ===== CV Experience timeline ===== */
+.cv-timeline {
+  position: relative;
+  padding-left: 34px;
+  margin: 24px 0;
+}
+
+.cv-timeline::before {
+  content: "";
+  position: absolute;
+  left: 9px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: #c3ccd6;
+}
+
+.timeline-entry {
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.timeline-entry:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-entry::before {
+  content: "";
+  position: absolute;
+  left: -34px;
+  top: 2px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #E2E2DA;
+  border: 3px solid #FFD700;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 4px #E2E2DA;
+}
+
+.timeline-role {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #003D82;
+  font-size: 1.15em;
+}
+
+/* ===== CV Skills two-column ===== */
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin: 20px 0;
+}
+
+.skill-group {
+  margin-bottom: 18px;
+}
+
+.skill-group h3 {
+  margin: 0 0 6px;
+  font-size: 1.05em;
+}
+
+.skill-group p {
+  margin: 4px 0 0;
+}
+
+@media (max-width: 640px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}

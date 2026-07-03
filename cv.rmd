@@ -22,28 +22,36 @@ Biotechnology professional with a B.S. in Biotechnology and four-plus years of c
 
 ## Professional Experience
 
-### Specialist III, Media Production Coordinator
+<div class="cv-timeline">
+
+<div class="timeline-entry">
+<div class="timeline-role">Specialist III, Media Production Coordinator</div>
 <div class="cv-meta">Salt Lake Community College — InnovaBio · Sep 2021 – Present</div>
 
 - Perform high-complexity molecular biology procedures including PCR and nucleic acid extraction and quantification.
 - Participate in the development, optimization, and validation of new assays and protocols; write and maintain SOPs and troubleshoot assays.
 - Train laboratory personnel in molecular techniques, contamination control, equipment operation, and data recording.
 - Lead media production for biology departments and manage inventory, supplies, and equipment.
+</div>
 
-### Formulator II
+<div class="timeline-entry">
+<div class="timeline-role">Formulator II</div>
 <div class="cv-meta">bioMérieux · May 2023 – Present</div>
 
 - Perform aseptic formulation of buffers and reagents for molecular diagnostic platforms in a fast-paced, quality-controlled GMP manufacturing environment.
 - Train laboratory personnel in GMP documentation, reagent preparation, and contamination-control standards in compliance with company SOPs.
 - Apply a continuous-improvement mindset to workflow optimization.
+</div>
 
-### Microbiologist
+<div class="timeline-entry">
+<div class="timeline-role">Microbiologist</div>
 <div class="cv-meta">Analytical Research Labs · May 2022 – May 2023</div>
 
 - Performed aseptic sample preparation, microbial culture and enumeration, and quality-control testing for nutraceutical and dietary supplement manufacturers in a high-throughput environment.
 - Tracked and documented samples using LIMS software; led team in meeting testing deadlines under time pressure.
+</div>
 
-<div class="chevron-divider"><span></span><span></span><span></span></div>
+</div>
 
 ## Education
 
@@ -56,15 +64,28 @@ Relevant coursework: Molecular Biology, Genetics, Genomics, Cell Biology, Microb
 
 ## Technical Skills
 
-**Molecular Biology & Microbiology:** PCR, Nucleic Acid Extraction & Quantification, Gel Electrophoresis, Plasmid Design, Serial Dilution, Aseptic & Sterile Technique, Microbial Culture & Enumeration, BSL-2 Operations, Contamination Control
-
-**Genomics & Diagnostics:** NGS Principles, DNA Extraction from Biological Samples, Genotyping Concepts, Sequence Analysis
-
-**Data & Quality:** SOP Writing & Execution, Assay Development, Quality Control, LIMS, Data Review, GMP Compliance
-
-**Computing:** Data Analysis & Visualization (R), Command Line / Bash, Electronic Lab Notebook, MS Word, MS Excel, MS PowerPoint, Google Workspace
-
-<div class="chevron-divider"><span></span><span></span><span></span></div>
+<div class="skills-grid">
+<div class="skills-col">
+<div class="skill-group">
+### Molecular Biology & Microbiology
+PCR, Nucleic Acid Extraction & Quantification, Gel Electrophoresis, Plasmid Design, Serial Dilution, Aseptic & Sterile Technique, Microbial Culture & Enumeration, BSL-2 Operations, Contamination Control
+</div>
+<div class="skill-group">
+### Genomics & Diagnostics
+NGS Principles, DNA Extraction from Biological Samples, Genotyping Concepts, Sequence Analysis
+</div>
+</div>
+<div class="skills-col">
+<div class="skill-group">
+### Data & Quality
+SOP Writing & Execution, Assay Development, Quality Control, LIMS, Data Review, GMP Compliance
+</div>
+<div class="skill-group">
+### Computing
+Data Analysis & Visualization (R), Command Line / Bash, Electronic Lab Notebook, MS Word, MS Excel, MS PowerPoint, Google Workspace
+</div>
+</div>
+</div>
 
 ## Research
 

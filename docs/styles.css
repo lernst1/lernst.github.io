@@ -378,12 +378,22 @@ a:hover {
 }
 
 /* ===== Contact page ===== */
+.contact-intro {
+  text-align: center;
+  max-width: 560px;
+  margin: 20px auto 0;
+}
+
 .contact-cards {
+  margin: 30px 0;
+}
+
+.contact-cards p {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 240px);
   gap: 20px;
-  max-width: 640px;
-  margin: 30px auto;
+  justify-content: center;
+  margin: 0;
 }
 
 .contact-card {
@@ -391,7 +401,7 @@ a:hover {
   border: 1px solid #d0d8e0;
   border-left: 5px solid #005AC1;
   border-radius: 8px;
-  padding: 26px 20px;
+  padding: 28px 20px;
   text-align: center;
   box-shadow: 0 1px 4px rgba(0,0,0,0.08);
   transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
@@ -410,12 +420,22 @@ a:hover {
 .contact-icon {
   display: flex;
   justify-content: center;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
+}
+
+.contact-icon .icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #e6f0fb;
 }
 
 .contact-icon svg {
-  width: 32px;
-  height: 32px;
+  width: 28px;
+  height: 28px;
   color: #005AC1;
 }
 
@@ -435,8 +455,41 @@ a:hover {
   display: block;
 }
 
+.contact-availability {
+  text-align: center;
+  margin: 34px auto 0;
+  max-width: 520px;
+}
+
+.availability-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #e6f0fb;
+  color: #005AC1;
+  font-weight: 600;
+  font-size: 0.9em;
+  padding: 8px 18px;
+  border-radius: 999px;
+}
+
+.availability-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #2ea043;
+  display: inline-block;
+}
+
+.contact-location {
+  color: #6b7280;
+  font-size: 0.9em;
+  margin-top: 12px;
+}
+
 @media (max-width: 600px) {
-  .contact-cards {
-    grid-template-columns: 1fr;
+  .contact-cards p {
+    grid-template-columns: 240px;
   }
 }
+/* End of Contact page */

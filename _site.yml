@@ -9,8 +9,6 @@ navbar:
       href: cv.html
     - text: "Research"
       href: research.html
-    - text: "Final Project"
-      href: final_project.html
     - text: "About"
       href: about.html
     - text: "Contact"

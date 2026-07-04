@@ -196,6 +196,11 @@ a:hover {
   white-space: nowrap;
 }
 
+/* Card link to turn gold on hover */
+.card-link:hover .card-icon svg {
+  color: #FFD700;
+}
+
 /* Chevron section divider - speed-line motif */
 .chevron-divider {
   display: flex;

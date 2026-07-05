@@ -498,3 +498,66 @@ a:hover {
   }
 }
 /* End of Contact page */
+
+/* ===== About page ===== */
+.about-row {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 36px;
+  align-items: center;
+  margin: 36px 0;
+}
+
+.about-row.reverse {
+  grid-template-columns: 1fr 280px;
+}
+
+.about-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #d4dde6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.about-photo.circle {
+  border-radius: 50%;
+}
+
+.about-photo.landscape {
+  aspect-ratio: 4 / 3;
+}
+
+.about-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-text p:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 640px) {
+  .about-row,
+  .about-row.reverse {
+    grid-template-columns: 1fr;
+  }
+  .about-photo,
+  .about-photo.landscape {
+    aspect-ratio: 16 / 9;
+    max-height: 300px;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  .about-photo.circle {
+    aspect-ratio: 1 / 1;
+    max-width: 240px;
+  }
+}
+
+/* End of About page */

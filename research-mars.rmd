@@ -19,7 +19,7 @@ output:
 </nav>
 <div class="research-content">
 
-<img class="research-hero-img" src="images/research-mars.jpg" alt="Cyanobacteria bioreactor">
+<img class="research-hero-img" src="images/research-mars.jpeg" alt="Cyanobacteria bioreactor">
 
 ## Background
 

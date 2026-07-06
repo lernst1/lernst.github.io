@@ -21,7 +21,7 @@ output:
 </div>
 </a>
 <a class="research-card" href="research-mars.html">
-<div class="research-card-img"><img src="images/research-mars.jpg" alt="Cyanobacteria bioreactor"></div>
+<div class="research-card-img"><img src="images/research-mars.jpeg" alt="Cyanobacteria bioreactor"></div>
 <div class="research-card-body">
 <div class="research-card-title">Cyanobacterial Oxygen Production Under Simulated Mars Conditions</div>
 <p class="research-card-hook">Investigating cyanobacterial growth as a foundation for oxygen and biomass production off-world.</p>

@@ -308,7 +308,7 @@ pollutants found within the water that present health risks to the
 ecosystem including the organic compound polychlorinated biphenyls
 (PCBs). PCBs are highly stable compounds that can take decades to
 naturally degrade and remain in the lake water despite the use of PCBs
-being banned in the 1970s.</p>
+being banned in the US in 1979.</p>
 <p>The motivation for this project is to improve the ecosystem of Utah
 Lake, its plant and aquatic life, and to restore its renown as a place
 of recreation. A biological solution targeting both problems
@@ -318,10 +318,34 @@ themselves.</p>
 <div id="approach" class="section level2">
 <h2>Approach</h2>
 <p>Soil bacteria isolated in Japan have been found to contain a biphenyl
-(BPH) gene cluster that can break PCBs down to Acetyl-CoA. This project
-looks to use CRISPR to knock out the mcy producing gene and knock in the
-BPH gene cluster, inhibiting toxin production and conferring the PCB
-breakdown function to <em>M. aeruginosa</em>.</p>
+(BPH) gene cluster capable of breaking PCBs down to Acetyl-CoA through a
+series of enzymatic steps. As shown in the figure below, the cluster
+encodes a multi-component dioxygenase (bphA1-A4) that initiates
+oxygenation of biphenyl, followed by a dehydrogenase (bphB), a
+ring-cleavage dioxygenase (bphC), and a hydrolase (bphD) that yields
+benzoic acid and a five-carbon acid. The downstream bphX genes complete
+the degradation to Acetyl-CoA, feeding directly into central
+metabolism.</p>
+<p>This project uses CRISPR to knock out the mcy toxin-producing gene in
+<em>M. aeruginosa</em> and knock in the BPH gene cluster, simultaneously
+inhibiting toxin production and conferring PCB breakdown function to the
+cyanobacterium.</p>
+<figure style="margin: 24px 0;">
+<img src="images/bph-pathway.jpg" alt="BPH degradation pathway showing gene cluster organization" style="width:100%; max-width:600px; display:block; margin:0 auto; border-radius:6px;">
+<figcaption style="text-align:center; font-size:0.85em; color:#6b7280; margin-top:8px;">
+Biphenyl/PCB degradation pathway and bph gene cluster organization.
+Figure 1 from Kimura et al. (2019), <em>Genes</em> 10(5), 404.
+<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6563109/" target="_blank" rel="noopener">https://doi.org/10.3390/genes10050404</a>.
+Licensed under CC BY 4.0.
+</figcaption>
+</figure>
+<figure style="margin: 24px 0;">
+<img src="images/bph-flowchart.svg" alt="BPH project experimental flowchart" style="width:100%; max-width:540px; display:block; margin:0 auto;">
+<figcaption style="text-align:center; font-size:0.85em; color:#6b7280; margin-top:8px;">
+Experimental Design Overview: Blue - Construct Building, Amber -
+Functional Assays, Purple - CRISPR Integration
+</figcaption>
+</figure>
 </div>
 <div id="current-work" class="section level2">
 <h2>Current Work</h2>

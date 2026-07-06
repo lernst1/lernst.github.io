@@ -1,0 +1,41 @@
+---
+title: " "
+output:
+  html_document:
+    theme: flatly
+    toc: false
+    df_print: paged
+    css: styles.css
+---
+
+<div class="page-title">Cyanobacteria for Mars Habitation</div>
+
+<div class="research-layout">
+<nav class="research-nav">
+<p class="research-nav-title">Projects</p>
+<a href="research-bph.html">PCB Degradation</a>
+<a class="active" href="research-mars.html">Mars Habitation</a>
+<a href="research-phylo.html">Microcystin Phylogenetics</a>
+</nav>
+<div class="research-content">
+
+<img class="research-hero-img" src="images/research-mars.jpg" alt="Cyanobacteria bioreactor">
+
+## Background
+
+*[Placeholder — what the project investigated and why. The context of cyanobacteria as a candidate for off-world oxygen/biomass production, and what motivated the work.]*
+
+## Approach
+
+*[Placeholder — your methods: how you grew the cyanobacteria, the bioreactor setup, conditions tested, what you measured. A photo of the bioreactor or setup would fit well here.]*
+
+## Results / What Was Done
+
+*[Placeholder — findings or outcomes of the work.]*
+
+## Future Directions
+
+*[Placeholder — where this line of work could go, or how it informed your later research.]*
+
+</div>
+</div>

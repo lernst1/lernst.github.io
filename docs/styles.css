@@ -382,6 +382,160 @@ a:hover {
   }
 }
 
+/* ===== End of CV page ===== */
+
+/* ===== Research landing page ===== */
+.research-intro {
+  text-align: center;
+  max-width: 620px;
+  margin: 0 auto 10px;
+}
+
+.research-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 30px 0;
+}
+
+.research-card {
+  background: white;
+  border: 1px solid #d0d8e0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  transition: transform .15s ease, box-shadow .15s ease;
+  text-decoration: none !important;
+  display: block;
+}
+
+.research-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  text-decoration: none !important;
+}
+
+.research-card-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #d4dde6;
+  overflow: hidden;
+}
+
+.research-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.research-card-body {
+  padding: 18px 20px 22px;
+  border-top: 4px solid #005AC1;
+}
+
+.research-card-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #003D82;
+  font-size: 1.1em;
+  margin: 0 0 6px;
+}
+
+.research-card-hook {
+  color: #4a5568;
+  font-size: 0.92em;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .research-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* End of Research landing page ===== */
+
+/* ===== Research sub-pages (sticky sidebar) ===== */
+.research-layout {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.research-nav {
+  position: sticky;
+  top: 20px;
+  background: white;
+  border: 1px solid #d0d8e0;
+  border-radius: 10px;
+  padding: 18px 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.research-nav-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #003D82;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 12px;
+}
+
+.research-nav a {
+  display: block;
+  color: #4a5568;
+  text-decoration: none !important;
+  font-size: 0.9em;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border-left: 3px solid transparent;
+  margin-bottom: 4px;
+  transition: background .15s ease, color .15s ease, border-color .15s ease;
+}
+
+.research-nav a:hover {
+  background: #e6f0fb;
+  color: #005AC1;
+}
+
+.research-nav a.active {
+  background: #e6f0fb;
+  color: #005AC1;
+  border-left-color: #FFD700;
+  font-weight: 600;
+}
+
+.research-content h2:first-child {
+  margin-top: 0;
+}
+
+.research-hero-img {
+  width: 100%;
+  aspect-ratio: 21 / 9;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #d4dde6;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 760px) {
+  .research-layout {
+    grid-template-columns: 1fr;
+  }
+  .research-nav {
+    position: static;
+    margin-bottom: 20px;
+  }
+  .research-nav a {
+    display: inline-block;
+    margin-right: 6px;
+  }
+}
+
+/* ===== End of Research sub-pages ===== */
+
 /* ===== Contact page ===== */
 .contact-intro {
   text-align: center;
@@ -496,6 +650,10 @@ a:hover {
   .contact-cards p {
     grid-template-columns: 240px;
   }
+}
+
+.contact-card:hover .contact-icon svg {
+  color: #FFD700;
 }
 /* End of Contact page */
 

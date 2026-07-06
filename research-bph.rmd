@@ -1,0 +1,42 @@
+---
+title: " "
+output:
+  html_document:
+    theme: flatly
+    toc: false
+    df_print: paged
+    css: styles.css
+---
+
+<div class="page-title">Engineering Cyanobacteria to Degrade PCBs</div>
+
+<div class="research-layout">
+<nav class="research-nav">
+<p class="research-nav-title">Projects</p>
+<a class="active" href="research-bph.html">PCB Degradation</a>
+<a href="research-mars.html">Mars Habitation</a>
+<a href="research-phylo.html">Microcystin Phylogenetics</a>
+</nav>
+<div class="research-content">
+
+<img class="research-hero-img" src="images/research-bph.jpg" alt="Utah Lake">
+
+## Background
+
+
+*[Placeholder — the problem and why it matters. Describe harmful algal blooms, microcystin toxins, the Utah Lake context, and what motivated the project.]*
+
+## Approach
+
+*[Placeholder — your genetic engineering strategy: the BPH gene from soil bacteria, knocking out the microcystin-producing gene, knocking in the BPH pathway. A figure or diagram would go well here.]*
+
+## Current Work
+
+*[Placeholder — what's actively being worked on now: cloning, primer design, Gibson Assembly, troubleshooting.]*
+
+## Future Directions
+
+*[Placeholder — where the project is headed.]*
+
+</div>
+</div>

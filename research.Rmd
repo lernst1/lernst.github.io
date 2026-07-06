@@ -1,18 +1,30 @@
 ---
 title: " "
-output: 
+output:
   html_document:
+    theme: flatly
+    toc: false
+    df_print: paged
     css: styles.css
-date:
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 <div class="page-title">Research Projects</div>
 
-### Genetic Modification of Cyanobacteria to Break Down Polychlorinated Biphenyls in Lake Water
-#### Using the BPH gene found in isolated soil bacteria, this project aims to genetically modify Microcystis aeruginosa to knockout the microcystin toxin producing gene and knockin the BPH gene thereby inhibiting toxin production from M. aeurginosa blooms and remove the organic contaminant Polychlroinated Biphenyls (PCBs).
+<p class="research-intro">An overview of my current and past research. Each project explores a different intersection of molecular biology and real-world application.</p>
 
-If you are interested in getting more information about any of these listed projects, please feel free to contact me.
+<div class="research-cards">
+<a class="research-card" href="research-bph.html">
+<div class="research-card-img"><img src="images/research-bph.jpg" alt="Utah Lake"></div>
+<div class="research-card-body">
+<div class="research-card-title">Engineering Cyanobacteria to Degrade PCBs</div>
+<p class="research-card-hook">Modifying cyanobacteria to break down persistent organic pollutants while suppressing toxin production.</p>
+</div>
+</a>
+<a class="research-card" href="research-mars.html">
+<div class="research-card-img"><img src="images/research-mars.jpg" alt="Cyanobacteria bioreactor"></div>
+<div class="research-card-body">
+<div class="research-card-title">Cyanobacteria for Mars Habitation</div>
+<p class="research-card-hook">Investigating cyanobacterial growth as a foundation for oxygen and biomass production off-world.</p>
+</div>
+</a>
+</div>

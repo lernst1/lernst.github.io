@@ -1,0 +1,41 @@
+---
+title: " "
+output:
+  html_document:
+    theme: flatly
+    toc: false
+    df_print: paged
+    css: styles.css
+---
+
+<div class="page-title">Microcystin Phylogenetics</div>
+
+<div class="research-layout">
+<nav class="research-nav">
+<p class="research-nav-title">Projects</p>
+<a href="research-bph.html">PCB Degradation</a>
+<a href="research-mars.html">Mars Habitation</a>
+<a class="active" href="research-phylo.html">Microcystin Phylogenetics</a>
+</nav>
+<div class="research-content">
+
+<img class="research-hero-img" src="images/research-phylo.jpg" alt="Microcystin phylogenetics">
+
+## Background
+
+*[Placeholder — the research question behind the phylogenetics work: what you were investigating about microcystin, and why it matters.]*
+
+## Approach
+
+*[Placeholder — your methods: sequence data used, alignment, phylogenetic analysis tools/software, how the tree was built.]*
+
+## Results / What Was Found
+
+*[Placeholder — key findings. This is a good place to embed or link the poster itself.]*
+
+## Poster
+
+*[Placeholder — embed the poster image or link to a downloadable PDF of the presentation.]*
+
+</div>
+</div>

@@ -14,7 +14,7 @@ output:
 <nav class="research-nav">
 <p class="research-nav-title">Projects</p>
 <a class="active" href="research-bph.html">PCB Degradation</a>
-<a href="research-mars.html">Mars Habitation</a>
+<a href="research-mars.html">Mars O<sub>2</sub> Production</a>
 <a href="research-phylo.html">Lab Experience & Projects</a>
 </nav>
 <div class="research-content">

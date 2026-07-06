@@ -33,6 +33,17 @@ The cyanobacterium selected to test was *Nostoc muscorum* as it has been shown t
 
 Ultimately, this project resulted in readings that were indeterminate. The sensors had a maximum detection threshold of 100,000 ppm CO2; since the chamber was back-filled with 98% CO2 (approximately 980,000 ppm), the sensors were saturated from the outset and could not have detected any decline even if CO2 was being consumed. The culture gradually turned from deep green to white over the course of the experiment. While initial discoloration could be attributed to photobleaching from the lamp, the most likely explanation is that the culture died under the extreme CO2 conditions.
 
+<div class="comparison-row">
+<figure class="comparison-img">
+<img src="images/mars-before.jpeg" alt="N. muscorum culture at start — deep green">
+<figcaption>Day 0 — <em>N. muscorum</em> culture, deep green</figcaption>
+</figure>
+<figure class="comparison-img">
+<img src="images/mars-after.jpeg" alt="N. muscorum culture at end — bleached white">
+<figcaption>Week 4 — culture bleached white under extreme CO₂ conditions</figcaption>
+</figure>
+</div>
+
 ## Future Directions
 
 This result provided insight on variables to include and control for a follow up procedure. Rather than completely filling the chamber with CO2, the amount of CO2 will be monitored to ensure it's within a detectable range. Placement of the lamp can also be adjusted to reduce the possibility of the culture bleaching. Additionally, photosynthetic CO2 consumption reduces dissolved carbonic acid, raising solution pH. If the culture was actively photosynthesizing, the resulting alkaline shift may have contributed to culture death. pH monitoring will be included in future runs.

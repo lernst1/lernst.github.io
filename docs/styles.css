@@ -536,6 +536,41 @@ a:hover {
 
 /* ===== End of Research sub-pages ===== */
 
+/* ===== Before/after comparison row for Mars Research ===== */
+.comparison-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.comparison-img {
+  margin: 0;
+}
+
+.comparison-img img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.comparison-img figcaption {
+  text-align: center;
+  font-size: 0.85em;
+  color: #6b7280;
+  margin-top: 6px;
+}
+
+@media (max-width: 600px) {
+  .comparison-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== End of Before/After Comparison for Mars Research ===== */
+
 /* ===== Lab Experience & Projects entries ===== */
 .lab-entry {
   background: white;

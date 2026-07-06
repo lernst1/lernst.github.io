@@ -23,21 +23,21 @@ output:
 
 ## Background
 
-Harmful algal blooms (HABs) present a danger to marine ecosystems, plant life, and human health and are present all throughout the world. Utah Lake is one of the many water systems impacted by HABs and is known to contain the microcystin (mcy) toxin attributed to the Cyanobacteria Microcystis aeruginosa. The eutrophication of Utah Lake has created a local health risk, killing the local fish and risking the health of humans and other animals and has transformed a once popular recreation site into a danger zone. In addition, there are other pollutants found within the water that present health risks to the ecosystem including the organic compound polychlorinated biphenyls (PCBs). PCBs are a highly stable compound that can take decades to naturally degrade and remain in the lake water despite the use of PCBs being banned in the 1970s. 
+Harmful algal blooms (HABs) present a danger to marine ecosystems, plant life, and human health and are present all throughout the world. Utah Lake is one of the many water systems impacted by HABs and is known to contain the microcystin (mcy) toxin attributed to the cyanobacteria *Microcystis aeruginosa*. The eutrophication of Utah Lake has created a local health risk, killing the local fish and risking the health of humans and other animals and has transformed a once popular recreation site into a danger zone. In addition, there are other pollutants found within the water that present health risks to the ecosystem including the organic compound polychlorinated biphenyls (PCBs). PCBs are highly stable compounds that can take decades to naturally degrade and remain in the lake water despite the use of PCBs being banned in the 1970s. 
 
-The motivation for this project is to improve the ecosystem of Utah Lake, its plant and aquatic life, and to restore its reknown as a place of recreation.
+The motivation for this project is to improve the ecosystem of Utah Lake, its plant and aquatic life, and to restore its renown as a place of recreation. A biological solution targeting both problems simultaneously may be possible through engineering the cyanobacteria themselves.
 
 ## Approach
 
-Soil bacteria isolated in Japan has been found to contain a biphenyl (BPH) gene cluster that can break PCBs down to Acetyl-CoA. This project looks to use CRSIPR to knock out the mcy producing gene and knock in the BPH gene cluster, inhibiting toxin production and conferring the PCB breakdown function to M. aeruginosa.
+Soil bacteria isolated in Japan have been found to contain a biphenyl (BPH) gene cluster that can break PCBs down to Acetyl-CoA. This project looks to use CRISPR to knock out the mcy producing gene and knock in the BPH gene cluster, inhibiting toxin production and conferring the PCB breakdown function to *M. aeruginosa*.
 
 ## Current Work
 
-The BPH gene cluster has been synthesized by Twist Bioscience and delivered in fragments. Currently, the fragments are going through PCR optimization for use in Gibson Ligation into a Cyanobacteria vector pSHDY.
+The BPH gene cluster has been synthesized by Twist Bioscience and delivered in fragments. Currently, the fragments are going through PCR optimization for use in ligation via Gibson Assembly into a cyanobacteria vector pSHDY. There are 6 fragments in total and 5/6 have been completed and are ready for the final amplification. The last fragment to be amplified, which is the first fragment of the cluster, has proven to require the most work and this is likely due to the sequence length that needs to overlap with the vector. This lengthened overlap has caused non-specific binding and produced extra bands, which has required a lengthier optimization process.
 
 ## Future Directions
 
-Upon completion of PCR optimization, each fragment will be amplified and then ligated into pSHDY using Gibson Assembly. The newly constructed plasmid, named BpSHDY, will be transformed in E. coli to test the function of the BPH gene by inoculating growth medium with a known concentration of PCBs and regularly measuring the levels of PCB concentration. Further, maintained cultures of M. aeruginosa will be transformed to carry BpSHDY and water samples will be inoculated with PCBs and, again, the PCB concentration levels will be measured to ensure a functional gene. Finally, homologous arms will be designed to knock out the mcy gene and knock in the BPH gene cluster, with the newly engineered M. aeruginosa going through another kinematics check in water samples inoculated with PCBs.
+Upon completion of PCR optimization, each fragment will be amplified and then ligated into pSHDY using Gibson Assembly. The newly constructed plasmid, named BpSHDY, will be transformed in *E. coli* to test the function of the BPH gene by inoculating growth medium with a known concentration of PCBs and regularly measuring the levels of PCB concentration. Further, maintained cultures of *M. aeruginosa* will be transformed to carry BpSHDY and water samples will be inoculated with PCBs and, again, the PCB concentration levels will be measured to ensure a functional gene. Finally, homologous arms will be designed to knock out the mcy gene and knock in the BPH gene cluster, with the newly engineered *M. aeruginosa* going through another PCB degradation assay in water samples.
 
 </div>
 </div>

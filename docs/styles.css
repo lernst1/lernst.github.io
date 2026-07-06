@@ -536,6 +536,56 @@ a:hover {
 
 /* ===== End of Research sub-pages ===== */
 
+/* ===== Lab Experience & Projects entries ===== */
+.lab-entry {
+  background: white;
+  border: 1px solid #d0d8e0;
+  border-left: 5px solid #005AC1;
+  border-radius: 8px;
+  margin-bottom: 28px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.lab-entry-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  border-bottom: 1px solid #d0d8e0;
+  background: #f5f8fc;
+}
+
+.lab-entry-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #003D82;
+  font-size: 1.05em;
+}
+
+.lab-entry-tag {
+  font-size: 0.75em;
+  font-weight: 600;
+  color: #005AC1;
+  background: #e6f0fb;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.lab-entry-body {
+  padding: 18px 20px;
+}
+
+.lab-entry-img {
+  width: 100%;
+  aspect-ratio: 16 / 5;
+  background: #d4dde6;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+/* ===== End of Lab Experience & Projects ===== */
+
 /* ===== Contact page ===== */
 .contact-intro {
   text-align: center;

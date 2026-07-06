@@ -28,3 +28,10 @@ output:
 </div>
 </a>
 </div>
+<a class="research-card" href="research-phylo.html">
+<div class="research-card-img"><img src="images/research-labexp.jpg" alt="Lab Experience and Projects"></div>
+<div class="research-card-body">
+<div class="research-card-title">Lab Experience & Projects</div>
+<p class="research-card-hook">Shorter-term work spanning phylogenetics, yeast transformation, protein production, and data analysis.</p>
+</div>
+</a>

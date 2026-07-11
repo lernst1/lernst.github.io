@@ -458,7 +458,11 @@ a:hover {
   }
 }
 
-/* End of Research landing page ===== */
+.research-card {
+  cursor: pointer;
+}
+
+/* ===== End of Research landing page ===== */
 
 /* ===== Research sub-pages (sticky sidebar) ===== */
 .research-layout {

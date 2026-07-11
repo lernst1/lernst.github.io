@@ -393,7 +393,7 @@ a:hover {
 
 .research-cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   margin: 30px 0;
 }
@@ -431,6 +431,11 @@ a:hover {
 .research-card-body {
   padding: 18px 20px 22px;
   border-top: 4px solid #005AC1;
+  transition: border-color 0.15s ease;
+}
+
+.research-card:hover .research-card-body {
+  border-top-color: #FFD700;
 }
 
 .research-card-title {

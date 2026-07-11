@@ -2,3 +2,19 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- script to keep gold bar under Research when navigating Research subpages -->
+<script>
+(function(){
+  var path = window.location.pathname;
+  if(path.indexOf('research') !== -1) {
+    var links = document.querySelectorAll('.navbar-nav a');
+    links.forEach(function(link){
+      if(link.getAttribute('href') === 'research.html' ||
+         link.textContent.trim() === 'Research'){
+        link.parentElement.classList.add('active');
+      }
+    });
+  }
+})();
+</script>

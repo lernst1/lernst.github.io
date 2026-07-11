@@ -39,6 +39,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
+<!-- script to keep gold bar under Research when navigating Research subpages -->
+<script>
+(function(){
+  var path = window.location.pathname;
+  if(path.indexOf('research') !== -1) {
+    var links = document.querySelectorAll('.navbar-nav a');
+    links.forEach(function(link){
+      if(link.getAttribute('href') === 'research.html' ||
+         link.textContent.trim() === 'Research'){
+        link.parentElement.classList.add('active');
+      }
+    });
+  }
+})();
+</script>
+
 <style type="text/css">
   code{white-space: pre-wrap;}
   span.smallcaps{font-variant: small-caps;}
@@ -314,11 +330,9 @@ Investigating cyanobacterial growth as a foundation for oxygen and
 biomass production off-world.
 </p>
 </div>
-<p></a></p>
-</div>
-<a class="research-card" href="research-phylo.html">
+</a> <a class="research-card" href="research-phylo.html">
 <div class="research-card-img">
-<img src="images/research-labexp.jpg" alt="Lab Experience and Projects">
+<p><img src="images/pglo-expression-plate.jpeg" alt="GFP expression in E. coli" style="width:100%; height:100%; object-fit:cover; object-position:center 60%;"></p>
 </div>
 <div class="research-card-body">
 <div class="research-card-title">
@@ -330,6 +344,7 @@ production, and data analysis.
 </p>
 </div>
 <p></a></p>
+</div>
 
 
 

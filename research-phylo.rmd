@@ -29,7 +29,7 @@ output:
 <div class="lab-entry-body">
 <div class="lab-entry-img"><img src="images/phylo-poster.jpg" alt="Microcystin phylogenetics poster" style="width:100%;height:100%;object-fit:cover;"></div>
 
-*This project was for a coursework final. The research investigated molecular detection methods for identifying microcystin toxin genes mcyA, mcyD, mcyE, and mcyG. Microcystins can be difficult to identify and this research explored if using a range of mcy genes would provide enough specificity to reliably detect mcy genes with PCR. In this project, I downloaded cyanobacterial genomes using NCBI datasets and performed sequence analysis by comparing BLAST hits to a reference gene sequence for each of the mcy genes. Analysis revealed that the selected mcy genes fall short of providing a specific detection method as particular mcy genes were identified in species that are not known to carry mcy genes, and some other species were missing the mcy gene despite being known to carry them. This details the methods used and phylogenetic trees to visualize which species carried the selected genes. This poster was presented at UVU's end of semester biology research presentation April 2026.*
+*Microcystins are cyanobacterial toxins that can be difficult to detect reliably due to their genetic variability across species. This project investigated whether targeting a panel of mcy genes (mcyA, mcyD, mcyE, and mcyG) using PCR would provide sufficient specificity for molecular detection. Cyanobacterial genomes were downloaded via NCBI Datasets and BLAST was used to compare hits against reference sequences for each target gene. Analysis revealed significant limitations: certain mcy genes were detected in species not known to carry them, while other known carriers were missing them entirely, indicating the selected panel lacks the specificity needed for reliable detection. Results were compiled into a research poster with phylogenetic trees visualizing gene distribution across species and presented at UVU's Biology Research Symposium in April 2026.*
 
 <p><a href="images/phylo-poster.pdf" target="_blank" rel="noopener">View poster (PDF)</a></p>
 </div>
@@ -41,9 +41,9 @@ output:
 <span class="lab-entry-tag">Molecular Biology</span>
 </div>
 <div class="lab-entry-body">
-<div class="lab-entry-img"><img src="images/gfp-expression.jpg" alt="GFP fluorescence in yeast cells" style="width:100%;height:100%;object-fit:cover;"></div>
+<div class="lab-entry-img"><img src="images/gfp-expression.jpeg" alt="GFP fluorescence in yeast cells" style="width:100%;height:100%;object-fit:cover;"></div>
 
-*[Placeholder — one paragraph: the broader PETase-MHETase plastic degradation project context, your specific task (transforming yeast with the pGAL-GFP plasmid), and the GFP expression confirmation under the galactose promoter.]*
+*An ongoing project at InnovaBio aimed to engineer yeast to express PETase-MHETase, enzymes capable of breaking down polyethylene terephthalate (PET) plastic and generating biofuel. Successful transformation was to be confirmed using two markers: the KanMX resistance cassette for selection and GFP expressed from the pGAL-GFP vector as a fluorescence reporter. This step had proven difficult for student researchers, so I stepped in to troubleshoot. YPH499 yeast cells were grown on YPD for recovery, then plated on synthetic dropout medium supplemented with G418 and 2% galactose, G418 being necessary since kanamycin is ineffective in yeast, to select for transformed colonies and induce GFP expression from the GAL promoter. Colony fluorescence was confirmed under UV light, providing student interns with a verified working protocol and a reliable starting point to continue the project.*
 
 </div>
 </div>
@@ -54,12 +54,14 @@ output:
 <span class="lab-entry-tag">Biomanufacturing</span>
 </div>
 <div class="lab-entry-body">
+<div class="lab-entry-img"><img src="images/taq-expression.jpeg" alt="GFP fluorescence in yeast cells" style="width:100%;height:100%;object-fit:cover;"></div>
 
-*[Placeholder — one paragraph: the STUDENTfacturED context, IPTG induction, SDS-PAGE verification of protein expression, and the Inoue competent cell preparation SOP you developed.]*
+*Biology labs at SLCC currently rely on commercial Taq polymerase for PCR coursework, representing a significant recurring cost. This ongoing StudentFactured project aims to produce Taq in-house as a cost-saving measure. A plasmid carrying the Taq gene was transformed into E. coli BL21(DE3), and a positive colony was confirmed by miniprep and restriction digest. A starter culture was scaled to 50 mL, grown to an OD600 of ~0.7, and induced overnight with IPTG. Successful expression was confirmed by SDS-PAGE following cell lysis and sonication. Purification proceeded through a multi-step column-free protocol: a heat clearance step at 75°C to precipitate thermolabile host proteins (exploiting Taq's thermostability), streptomycin sulfate precipitation to remove nucleic acids, and sequential ammonium sulfate cuts at 35% and 75% saturation to isolate the protein fraction. The resulting pellet was resuspended in storage buffer, dialyzed overnight to remove residual ammonium sulfate, then aliquoted in 50% glycerol and stored at -80°C. Final SDS-PAGE verification of the purified protein is pending before production is scaled up through StudentFactured, potentially saving the college thousands of dollars annually.*
 
 </div>
 </div>
 
+<!--
 <div class="lab-entry">
 <div class="lab-entry-header">
 <div class="lab-entry-title">Sonic Game Data Analysis</div>
@@ -72,6 +74,7 @@ output:
 <p><a href="final_project.html">View full project</a></p>
 </div>
 </div>
+-->
 
 </div>
 </div>

@@ -41,7 +41,7 @@
 
 <!-- script to keep gold bar under Research when navigating Research subpages -->
 <script>
-(function(){
+document.addEventListener('DOMContentLoaded', function(){
   var path = window.location.pathname;
   if(path.indexOf('research') !== -1) {
     var links = document.querySelectorAll('.navbar-nav a');
@@ -52,7 +52,7 @@
       }
     });
   }
-})();
+});
 </script>
 
 <style type="text/css">

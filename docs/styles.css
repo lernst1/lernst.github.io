@@ -418,7 +418,7 @@ a:hover {
 .research-card-img {
   width: 100%;
   aspect-ratio: 16 / 9;
-  background: #d4dde6;
+  background: transparent;
   overflow: hidden;
 }
 

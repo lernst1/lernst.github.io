@@ -26,7 +26,7 @@ Biotechnologist with a B.S. in Biotechnology and laboratory experience spanning 
 
 <div class="timeline-entry">
 <div class="timeline-role">Specialist III, Media Production Coordinator</div>
-<div class="cv-meta">Salt Lake Community College <span style="font-style:normal;">|</span> InnovaBio · Sep 2021 – Present</div>
+<div class="cv-meta">Salt Lake Community College InnovaBio · Sep 2021 – Present</div>
 
 - Perform high-complexity molecular biology procedures including PCR, nucleic acid extraction and quantification, agarose gel electrophoresis, restriction digest, NanoDrop quantification, and pH measurement.
 - Participate in the development, optimization, and validation of new assays and protocols; write and maintain SOPs and troubleshoot assays.
@@ -76,7 +76,7 @@ Biotechnologist with a B.S. in Biotechnology and laboratory experience spanning 
 ### Bachelor of Science, Biotechnology
 <div class="cv-meta">Utah Valley University · May 2026</div>
 
-Relevant coursework: Molecular Biology, Genetics, Genomics, Cell Biology, Microbiology, Organic Chemistry, Biochemistry I.
+Relevant coursework: Molecular Biology, Genetics, Genomics, Cell Biology, Microbiology, Organic Chemistry, Biochemistry I, Bioinformatics, Data Analysis, Phylogenetics.
 
 <div class="chevron-divider"><span></span><span></span><span></span></div>
 
@@ -86,25 +86,53 @@ Relevant coursework: Molecular Biology, Genetics, Genomics, Cell Biology, Microb
 <div class="skills-col">
 <div class="skill-group">
 ### Molecular Biology & Microbiology
-PCR, Nucleic Acid Extraction & Quantification, Gel Electrophoresis, Plasmid Design, Serial Dilution, Aseptic & Sterile Technique, Microbial Culture & Enumeration, BSL-2 Operations, Contamination Control
+PCR, Nucleic Acid Extraction & Quantification, Spectrophotometry (NanoDrop, OD600), Agarose Gel Electrophoresis, SDS-PAGE, Restriction Digest, Miniprep & Midiprep, Plasmid Design & Construction, Serial Dilution, Aseptic & Sterile Technique, Microbial Culture & Enumeration, Protein Expression (IPTG Induction), Protein Purification (Ammonium Sulfate Precipitation & Dialysis), BSL-2 Operations, Contamination Control, Biohazardous Waste Handling
 </div>
 <div class="skill-group">
 ### Genomics & Diagnostics
-NGS Principles, DNA Extraction from Biological Samples, Genotyping Concepts, Sequence Analysis
+NGS Principles, DNA Extraction from Biological Samples, Genotyping Concepts, Sequence Analysis, BLAST, Phylogenetic Analysis
+</div>
+<div class="skill-group">
+### Data & Quality
+SOP Writing & Execution, Assay Development & Validation, Batch Record Completion, Quality Control, LIMS, Data Review, GMP Compliance, Daily Equipment Validation, Inventory Management
 </div>
 </div>
 <div class="skills-col">
 <div class="skill-group">
-### Data & Quality
-SOP Writing & Execution, Assay Development, Quality Control, LIMS, Data Review, GMP Compliance
+### Biomanufacturing & Production
+GMP Manufacturing, Reagent & Buffer Formulation, PCR Master Mix Formulation, Magnetic Bead Dispensing (Automated), Media Production (TSA, PDA, LB, MacConkey, SIM, Simmons Citrate, Gelatin Stab, Broth Tubes), Freeze Drying & Lyophilization, High-Throughput Pipetting, Plate Pouring (Automated)
+</div>
+<div class="skill-group">
+### Instruments & Equipment
+NanoDrop & DeNovix DS-11 FX+, MediaClave, Automated Dilution Equipment, Automated Plate Pourer, BioTek MultiFlo Automated Dispenser, Freeze Dryers, Photobioreactor, Anaerobic Chamber, O2 & CO2 Sensors, pH Probe, Autoclave, Peristaltic Pump, Thermocycler, UV Transilluminator
 </div>
 <div class="skill-group">
 ### Computing
-Data Analysis & Visualization (R), Command Line / Bash, Electronic Lab Notebook, MS Word, MS Excel, MS PowerPoint, Google Workspace
+Data Analysis & Visualization (R), Command Line & Bash Scripting, Electronic Lab Notebook, MS Word, MS Excel, MS PowerPoint, Google Workspace, NCBI Datasets, Benchling
 </div>
 </div>
 </div>
 
 ## Research
+
+### Presentations
+
+**Evolution of Microcystins Across Cyanobacteria**
+Poster presentation. UVU Department of Biology, Utah Valley University, Orem, UT. April 2026.
+[View poster (PDF)](images/poster-phylo-2026.pdf)
+
+**Modifying Cyanobacteria to Break Down Polychlorinated Biphenyls**
+Poster presentation. Undergraduate Projects, Performances, Presentations & Research Celebration (UP3RC), Salt Lake Community College, Salt Lake City, UT. May 2024.
+[View poster (PDF)](images/poster-bph-up3rc-2024.pdf)
+
+**Sustainability of Cyanobacteria in a CO2 Rich Environment**
+Poster presentation. Utah NASA Space Grant Consortium, Utah State University, Logan, UT. April 2024.
+[View poster (PDF)](images/poster-mars-2024.pdf)
+
+**Modifying Cyanobacteria to Break Down Polychlorinated Biphenyls**
+Poster presentation. Utah Conference on Undergraduate Research (UCUR), Utah Valley University, Orem, UT. February 2024.
+[View poster (PDF)](images/poster-bph-ucur-2024.pdf)
+
+<div class="chevron-divider"><span></span><span></span><span></span></div>
 
 For a detailed overview of current and past research projects, see the [Research page](research.html).

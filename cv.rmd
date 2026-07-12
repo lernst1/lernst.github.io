@@ -11,7 +11,7 @@ output:
 <div class="page-title">Curriculum Vitae</div>
 
 <div class="cv-actions">
-<a class="cv-download" href="Lonnie_Ernst_Resume.pdf" download>Download one-page resume (PDF)</a>
+<a class="cv-download" href="Lonnie_Ernst_Resume.pdf" download target="_blank" rel="noopener">Download one-page resume (PDF)</a>
 </div>
 
 ## Professional Summary

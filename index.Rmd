@@ -9,7 +9,7 @@ output:
 ---
 
 <div class="hero">
-<h1>Hi, I'm Lonnie, and welcome to my site.</h1>
+<h1>Lonnie Ernst - Biotechnologist.</h1>
 <p>Biotechnology &bull; Molecular Biology &bull; Bioinformatics &bull; Biomanufacturing</p>
 </div>
 

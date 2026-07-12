@@ -119,19 +119,19 @@ Data Analysis & Visualization (R), Command Line & Bash Scripting, Electronic Lab
 
 **Evolution of Microcystins Across Cyanobacteria**
 Poster presentation. UVU Department of Biology, Utah Valley University, Orem, UT. April 2026.
-[View poster (PDF)](images/poster-phylo-2026.pdf)
+<a href="images/phylo-poster.pdf" target="_blank" rel="noopener">View poster (PDF)</a>
 
 **Modifying Cyanobacteria to Break Down Polychlorinated Biphenyls**
 Poster presentation. Undergraduate Projects, Performances, Presentations & Research Celebration (UP3RC), Salt Lake Community College, Salt Lake City, UT. May 2024.
-[View poster (PDF)](images/poster-bph-up3rc-2024.pdf)
+<a href="images/poster-bph-ucur-2024.pdf" target="_blank" rel="noopener">View poster (PDF)</a>
 
 **Sustainability of Cyanobacteria in a CO2 Rich Environment**
 Poster presentation. Utah NASA Space Grant Consortium, Utah State University, Logan, UT. April 2024.
-[View poster (PDF)](images/poster-mars-2024.pdf)
+<a href="images/poster-mars-2024.pdf" target="_blank" rel="noopener">View poster (PDF)</a>
 
 **Modifying Cyanobacteria to Break Down Polychlorinated Biphenyls**
 Poster presentation. Utah Conference on Undergraduate Research (UCUR), Utah Valley University, Orem, UT. February 2024.
-[View poster (PDF)](images/poster-bph-ucur-2024.pdf)
+<a href="images/poster-bph-ucur-2024.pdf" target="_blank" rel="noopener">View poster (PDF)</a>
 
 <div class="chevron-divider"><span></span><span></span><span></span></div>
 

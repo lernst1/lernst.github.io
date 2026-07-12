@@ -9,11 +9,11 @@ output:
 ---
 
 <div class="hero">
-<h1>Lonnie Ernst - Biotechnologist.</h1>
+<h1>Lonnie Ernst | Biotechnologist</h1>
 <p>Biotechnology &bull; Molecular Biology &bull; Bioinformatics &bull; Biomanufacturing</p>
 </div>
 
-<p class="lead-intro">I'm a biotechnology professional with hands-on experience in molecular biology, biomanufacturing, and lab quality systems, alongside a growing interest in using data and code as research tools. This site hosts my CV, research projects, a little about me, and how you can contact me.</p>
+<p class="lead-intro">I'm a biotechnology professional with hands-on experience in molecular biology, biomanufacturing, and lab quality systems, alongside a growing interest in using data and code as research tools.</p>
 
 <div class="badge-row">
 <span class="badge">Plasmid Construction</span>

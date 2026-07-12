@@ -292,13 +292,16 @@ a:hover {
   padding: 12px 24px;
   border-radius: 999px;
   text-decoration: none !important;
-  transition: background-color 0.15s ease, transform 0.15s ease;
+  transition: background-color 0.15s ease, transform 0.15s ease, outline 0.15s ease, box-shadow 0.15s ease;
 }
 
 .cv-download:hover {
   background-color: #003D82;
   transform: translateY(-2px);
   color: white !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  outline: 2px solid #FFD700;
+  outline-offset: 2px;
 }
 
 .cv-meta {

@@ -30,7 +30,7 @@ output:
 <div class="research-card-img"><img src="images/pglo-expression-plate.jpeg" alt="GFP expression in E. coli" style="width:100%; height:100%; object-fit:cover; object-position:center 60%;"></div>
 <div class="research-card-body">
 <div class="research-card-title">Lab Experience & Projects</div>
-<p class="research-card-hook">Shorter-term work spanning phylogenetics, yeast transformation, protein production, and data analysis.</p>
+<p class="research-card-hook">Shorter-term work spanning phylogenetics, yeast transformation, and protein production.</p>
 </div>
 </div>
 </div>

@@ -10,6 +10,7 @@ output:
 
 <div class="page-title">Engineering Cyanobacteria to Degrade PCBs</div>
 
+
 <div class="research-layout">
 <nav class="research-nav">
 <p class="research-nav-title">Projects</p>
@@ -19,7 +20,10 @@ output:
 </nav>
 <div class="research-content">
 
-<img class="research-hero-img" src="images/research-bph.jpg" alt="Utah Lake">
+<figure style="margin: 0 0 24px;">
+<img class="research-hero-img" src="images/research-bph.jpg" alt="Utah Lake algal bloom">
+<figcaption style="text-align:center; font-size:0.8em; color:#6b7280; margin-top:6px;">Photo: Utah Department of Environmental Quality.</figcaption>
+</figure>
 
 ## Background
 

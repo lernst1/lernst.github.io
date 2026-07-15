@@ -24,7 +24,7 @@ Over the past several years, I've built experience across the full range of labo
 </div>
 </div>
 
-What draws me most is the intersection of molecular biology and real-world application. My current research explores engineering cyanobacteria to break down persistent organic pollutants while suppressing toxin production. It's the kind of problem where careful bench work meets a tangible environmental goal. This project has been an exciting experience for me, as it has challenged my wet lab, research, and computational abilities. I'm driven by the positive impact that biotechnology can have on environmental and human health.
+What drives me most is applying molecular biology to real-world problems. My current research explores engineering cyanobacteria to break down persistent organic pollutants while suppressing toxin production. It's the kind of problem where careful bench work meets a tangible environmental goal. This project has been an exciting experience for me, as it has challenged my wet lab, research, and computational abilities. I'm driven by the positive impact that biotechnology can have on environmental and human health.
 
 Increasingly, I'm also drawn to bringing data analysis and computational tools into the lab, translating raw data into insights people can act on. The implementation of computational tools to better process, store, and manage data plays a key role in better understanding the world around us.
 

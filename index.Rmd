@@ -44,7 +44,7 @@ output:
 
 ## About Me
 
-I hold a bachelor's degree in Biotechnology and work at the intersection of the bench and the process from molecular cloning and cell culture to media production and lab documentation. I'm drawn to problems that combine careful experimental work with the kind of pattern-finding that data analysis makes possible.
+I hold a bachelor's degree in Biotechnology and work across both the bench and the process from molecular cloning and cell culture to media production and lab documentation. I'm drawn to problems that combine careful experimental work with the kind of pattern-finding that data analysis makes possible.
 
 Outside of work, you'll probably find me tending my garden, exploring new PC hardware, or playing Slay the Spire.
 

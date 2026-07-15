@@ -17,7 +17,7 @@ output:
 
 ## Professional Summary
 
-Biotechnologist with a B.S. in Biotechnology and laboratory experience spanning academic and GMP manufacturing settings across molecular biology, nucleic acid extraction and quantification, PCR, and microbiology. My background combines hands-on research at an academic biomanufacturing lab with reagent formulation in a GMP production environment, giving me a foot in both the discovery and production sides of biotech. I'm especially drawn to work at the intersection of molecular biology and environmental application. My current research explores engineering cyanobacteria to break down persistent organic pollutants while suppressing toxin production. Alongside the bench, I'm increasingly focused on bringing data analysis and computational tools into laboratory work.
+Biotechnologist with a B.S. in Biotechnology and laboratory experience spanning academic and GMP manufacturing settings across molecular biology, nucleic acid extraction and quantification, PCR, and microbiology. My background combines hands-on research at an academic biomanufacturing lab with reagent formulation in a GMP production environment, giving me a foot in both the discovery and production sides of biotech. I'm especially drawn to molecular biology problems with a tangible environmental application. My current research explores engineering cyanobacteria to break down persistent organic pollutants while suppressing toxin production. Alongside the bench, I'm increasingly focused on bringing data analysis and computational tools into laboratory work.
 
 <div class="chevron-divider"><span></span><span></span><span></span></div>
 

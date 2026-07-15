@@ -21,6 +21,17 @@ h1, h2, h3 {
   color: #003D82;
 }
 
+/* ===== Hamburger menu contrast fix ===== */
+.navbar-toggle,
+.navbar-toggler {
+  border-color: #003D82 !important;
+}
+
+.navbar-toggle .icon-bar,
+.navbar-toggler-icon {
+  background-color: #003D82 !important;
+}
+
 /* Section header accent - gold underline bar */
 .main-container h2 {
   padding-bottom: 8px;

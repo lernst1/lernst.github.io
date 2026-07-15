@@ -1,5 +1,6 @@
 ---
 title: " "
+pagetitle: "Lonnie Ernst | Mars O2 Research"
 output:
   html_document:
     theme: flatly

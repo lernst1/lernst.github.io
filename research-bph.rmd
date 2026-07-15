@@ -1,5 +1,6 @@
 ---
 title: " "
+pagetitle: "Lonnie Ernst | PCB Degradation Research"
 output:
   html_document:
     theme: flatly

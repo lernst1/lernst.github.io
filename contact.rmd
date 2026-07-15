@@ -1,5 +1,6 @@
 ---
 title: " "
+pagetitle: "Lonnie Ernst | Contact"
 output:
   html_document:
     theme: flatly

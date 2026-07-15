@@ -1,5 +1,6 @@
 ---
 title: " "
+pagetitle: "Lonnie Ernst | CV"
 output:
   html_document:
     theme: flatly

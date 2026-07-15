@@ -1,5 +1,6 @@
 ---
 title: " "
+pagetitle: "Lonnie Ernst | Research"
 output:
   html_document:
     theme: flatly
